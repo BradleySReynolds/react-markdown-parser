@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>Markdown Parser</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="main-div">
+      <h1 class="main-header">Parse Markdown in Real-Time</h1>
+      <p class="main-para">
+        Type in Markdown on the left and see how the markdown would display on
+        the right.
+      </p>
+    </div>
+    <div class="k">
+      <div id="root"></div>
+      <div id="cheatsheet" className="cheatsheet">
+        <h2 className="cheat-head">Markdown cheatsheet</h2>
+        <table className="cheat-table">
+          <tr className="cheat-row">
+            <td className="cheat-data">Element</td>
+            <td className="cheat-data">Markdown Syntax</td>
+          </tr>
+          <tr className="cheat-row">
+            <td className="cheat-data">Heading</td>
+            <td className="cheat-data">
+              # H1
+              <br />
+              ## H2
+              <br />
+              ### H3
+            </td>
+          </tr>
+          <tr className="cheat-row">
+            <td className="cheat-data">Bold</td>
+            <td className="cheat-data">**bold text**</td>
+          </tr>
+          <tr className="cheat-row">
+            <td className="cheat-data">Italic</td>
+            <td className="cheat-data">*italicized text*</td>
+          </tr>
+          <tr className="cheat-row">
+            <td className="cheat-data">Blockquote</td>
+            <td className="cheat-data">&gt; blockquote</td>
+          </tr>
+          <tr className="cheat-row">
+            <td className="cheat-data">Ordered List</td>
+            <td className="cheat-data">
+              1. First item <br />
+              2. Second item <br />
+              3. Third item
+            </td>
+          </tr>
+          <tr className="cheat-row">
+            <td className="cheat-data">Unordered List</td>
+            <td className="cheat-data">
+              - First item <br />- Second item <br />- Third item
+            </td>
+          </tr>
+          <tr className="cheat-row">
+            <td className="cheat-data">Code</td>
+            <td className="cheat-data">`code`</td>
+          </tr>
+          <tr className="cheat-row">
+            <td className="cheat-data">Horizontal Rule</td>
+            <td className="cheat-data">---</td>
+          </tr>
+          <tr className="cheat-row">
+            <td className="cheat-data">Link</td>
+            <td className="cheat-data">[title](https://www.example.com)</td>
+          </tr>
+          <tr className="cheat-row">
+            <td className="cheat-data">Image</td>
+            <td className="cheat-data">![alt text](image.jpg)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <footer>Made by Bradley Reynolds for freeCodeCamp 2023</footer>
+  </body>
+</html>
