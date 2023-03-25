@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-markdown-parser/static/css/main.6a3ab909.css",
+    "main.js": "/react-markdown-parser/static/js/main.00dda91d.js",
+    "index.html": "/react-markdown-parser/index.html",
+    "main.6a3ab909.css.map": "/react-markdown-parser/static/css/main.6a3ab909.css.map",
+    "main.00dda91d.js.map": "/react-markdown-parser/static/js/main.00dda91d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a3ab909.css",
+    "static/js/main.00dda91d.js"
+  ]
+}
